@@ -9,10 +9,8 @@ tags:
   - Generative AI
 ---
 
-## High-Level Forum on Generative AI Governance and Cultural Co-Creation
-
 ![image](~/assets/images/events/GAGCC/1.jpg)
-_Secretary for Innovation, Technology and Industry Sun Dong delivers a speech on Thursday at a forum organized by the Hong Kong University of Science and Technology._
+_Secretary for Innovation, Technology and Industry Sun Dong delivers a speech on the forum organized by the Media Intelligence Research Center, HKUST._
 
 Forum Link: [https://hkust-mirc.github.io/GAGCC/](https://hkust-mirc.github.io/GAGCC/)
 
