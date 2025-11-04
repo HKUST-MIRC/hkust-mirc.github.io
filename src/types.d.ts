@@ -162,6 +162,11 @@ export interface Testimonial {
   url?: string;
 }
 
+export interface TestimonialGroup {
+  title?: string;
+  items: Array<Testimonial>;
+}
+
 export interface Input {
   type: HTMLInputTypeAttribute;
   name: string;
@@ -234,6 +239,9 @@ export interface Pricing extends Omit<Headline, 'classes'>, Widget {
 
 export interface Testimonials extends Omit<Headline, 'classes'>, Widget {
   testimonials?: Array<Testimonial>;
+  /** 统一网格渲染，不区分前两个 */
+  testimonials_array?: Array<Testimonial>;
+  groups?: Array<TestimonialGroup>;
   callToAction?: CallToAction;
 }
 
