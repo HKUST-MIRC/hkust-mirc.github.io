@@ -15,7 +15,7 @@ _Secretary for Innovation, Technology and Industry Sun Dong delivers a speech on
 ## Useful Links:
 
 - [Forum Link](https://hkust-mirc.github.io/GAGCC/)
-- [Forum Handbook](~/assets/large_files/GAGCC_handbook.pdf)
+- [Forum Handbook](https://drive.google.com/file/d/1RJvNv-HkWIIgSwwcsdaU8TCjN8DgabHa/view?usp=sharing)
 
 The High-Level Forum on Generative AI Governance and Cultural Co-Creation convenes global thought leaders, policymakers, researchers, and industry innovators to explore how artificial intelligence can be governed responsibly while advancing cultural innovation and shared human values.
 
