@@ -1,5 +1,5 @@
 ---
-publishDate: 2025-10-10T00:00:00Z
+publishDate: 2025-10-31T00:00:00Z
 title: High-Level Forum on Generative AI Governance and Cultural Co-Creation - HKUST October 30, 2025
 except: The High-Level Forum on Generative AI Governance and Cultural Co-Creation convenes global thought leaders, policymakers, researchers, and industry innovators to explore how artificial intelligence can be governed responsibly while advancing cultural innovation and shared human values.
 image: https://hkust-mirc.github.io/GAGCC/img/cover.png
