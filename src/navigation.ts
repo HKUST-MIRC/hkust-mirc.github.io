@@ -1,5 +1,7 @@
 // import { getPermalink } from './utils/permalinks';
-import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+// import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+// import { getPermalink, getBlogPermalink } from './utils/permalinks';
+import { getBlogPermalink } from './utils/permalinks';
 
 export const headerData = {
   links: [
@@ -86,14 +88,13 @@ export const headerData = {
     //     },
     //   ],
     // },
+    // {
+    //     text: 'Reseach',
+    //     href: getPermalink('/research/research'),
+    // },
     {
       text: 'News',
-      links: [
-        {
-          text: 'News List',
-          href: getBlogPermalink(),
-        },
-      ],
+      href: getBlogPermalink(),
     },
     // {
     //   text: 'About Us',
@@ -163,6 +164,6 @@ export const footerData = {
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/HKUST-MIRC' },
   ],
   footNote: `
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://github.com/MRTater"> Luo Yiyang</a> from Media Intelligence Research Center · All rights reserved.
+    Made by <a class="text-blue-600 underline dark:text-muted" href="https://mrtater.github.io/"> Luo Yiyang</a> and <a class="text-blue-600 underline dark:text-muted" href="https://github.com/honeysuckle-aj">Jiang Yihang</a> from Media Intelligence Research Center · All rights reserved.
   `,
 };
