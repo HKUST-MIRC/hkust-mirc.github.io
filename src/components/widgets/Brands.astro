@@ -101,7 +101,7 @@ const {
 </style>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
+  function initBrandsAnimation() {
     const brandsContainer = document.getElementById('brands-container');
     const brandItems = document.querySelectorAll('.brand-item');
 
@@ -147,5 +147,21 @@ const {
     );
 
     observer.observe(brandsContainer);
-  });
+
+    // Return cleanup function
+    return () => observer.disconnect();
+  }
+
+  // Initialize on DOMContentLoaded
+  document.addEventListener('DOMContentLoaded', initBrandsAnimation);
+
+  // Re-initialize on page navigation (for client-side routing)
+  document.addEventListener('astro:page-load', initBrandsAnimation);
+
+  // Also check if DOM is already loaded
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initBrandsAnimation);
+  } else {
+    initBrandsAnimation();
+  }
 </script>
