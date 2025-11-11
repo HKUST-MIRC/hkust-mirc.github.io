@@ -13,7 +13,9 @@ This project tackles the risks of AI-generated content (AIGC) by developing a mu
 
 The project will explore AIGC’s impact on public trust and media credibility through case studies. It will co-design technical solutions, such as explainability tools and content detection systems and integrate them into media workflows. Governance efforts will include creating the Hong Kong AIGC Risk Database, evaluating standards through adversarial testing, and developing policy toolkits informed by global governance models. The project aims to deliver a scalable framework for responsible AIGC innovation.
 
-**Collaborators**: Janet Hsiao (SOSC), Masaru Yarime (PPOL), Yangqiu Song (CSE)
+**Investigators**: Celine Yunya SONG (PI, HKUST)
+
+**Collaborators**: Janet Hsiao (HKUST), Masaru Yarime (HKUST), Yangqiu Song (HKUST)
 
 </details>
 
@@ -29,5 +31,7 @@ The study moves beyond traditional single-domain experiments by adopting a multi
 Methodologically, the project introduces several innovations. A proof-of-concept pipeline integrates real-time AI prompts into open-ended responses, followed by behavioral and perceptual evaluations by external raters. Hybrid evaluation metrics combine linguistic algorithms (e.g., clarity, concreteness) with behavioral outcomes (e.g., forecast accuracy, writing quality) and user experience data (e.g., effort, satisfaction). Cross-domain experimentation operationalizes the “AI-as-partner” model across contexts, while an equity testing framework examines how AI-mediated reflection shapes self-promotion behaviors across gender, yielding both theoretical and policy-relevant insights.
 
 By conceptualizing AI as a meta-communicator—an active co-thinker that enhances reasoning and reflection—this project redefines the boundaries of communication science and human–AI collaboration. Its open-source tools and evaluation rubrics will inform the design of AI-enhanced education, journalism, and policymaking interfaces, advancing a more reflective, equitable, and human-centered AI future.
+
+**Investigators**: David Hagmann (PI, HKUST), Yang Lu (Co-PI, HKUST), Celine Yunya Song (Co-PI, HKUST), and George Loewenstein (Co-PI, Carnegie Mellon University)
 
 </details>
