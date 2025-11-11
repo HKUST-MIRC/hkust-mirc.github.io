@@ -1,0 +1,89 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import type { MetaData } from '~/types';
+
+export interface Props {
+  frontmatter: {
+    title?: string;
+  };
+}
+
+const { frontmatter } = Astro.props;
+
+const metadata: MetaData = {
+  title: frontmatter?.title,
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="px-4 py-16 sm:px-6 mx-auto lg:px-8 lg:py-20 max-w-4xl">
+    <h1 class="font-bold font-heading text-4xl md:text-5xl leading-tighter tracking-tighter">{frontmatter.title}</h1>
+    <div
+      class="mx-auto prose prose-lg max-w-4xl dark:prose-invert dark:prose-headings:text-slate-300 prose-md prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-img:rounded-md prose-img:shadow-lg mt-8 toggle-content"
+    >
+      <slot />
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .toggle-content :global(details) {
+    margin-bottom: 1.5rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: #f9fafb;
+  }
+
+  .toggle-content :global(details[open]) {
+    background-color: #ffffff;
+  }
+
+  :global(.dark) .toggle-content :global(details) {
+    border-color: #374151;
+    background-color: #1f2937;
+  }
+
+  :global(.dark) .toggle-content :global(details[open]) {
+    background-color: #111827;
+  }
+
+  .toggle-content :global(summary) {
+    cursor: pointer;
+    font-weight: 600;
+    user-select: none;
+    list-style: none;
+    padding: 0.5rem;
+    margin: -0.5rem;
+    border-radius: 0.25rem;
+  }
+
+  .toggle-content :global(summary:hover) {
+    background-color: #f3f4f6;
+  }
+
+  :global(.dark) .toggle-content :global(summary:hover) {
+    background-color: #374151;
+  }
+
+  .toggle-content :global(summary::marker),
+  .toggle-content :global(summary::-webkit-details-marker) {
+    display: none;
+  }
+
+  .toggle-content :global(summary::before) {
+    content: '▶';
+    display: inline-block;
+    margin-right: 0.5rem;
+    transition: transform 0.2s;
+  }
+
+  .toggle-content :global(details[open] summary::before) {
+    transform: rotate(90deg);
+  }
+
+  .toggle-content :global(details > *:not(summary)) {
+    margin-top: 1rem;
+  }
+</style>

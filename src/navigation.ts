@@ -1,7 +1,7 @@
 // import { getPermalink } from './utils/permalinks';
 // import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
-// import { getPermalink, getBlogPermalink } from './utils/permalinks';
-import { getBlogPermalink } from './utils/permalinks';
+import { getPermalink, getBlogPermalink } from './utils/permalinks';
+// import { getBlogPermalink } from './utils/permalinks';
 
 export const headerData = {
   links: [
@@ -95,6 +95,10 @@ export const headerData = {
     {
       text: 'News',
       href: getBlogPermalink(),
+    },
+    {
+      text: 'Projects',
+      href: getPermalink('/projects'),
     },
     // {
     //   text: 'About Us',
