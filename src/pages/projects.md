@@ -13,7 +13,7 @@ This project tackles the risks of AI-generated content (AIGC) by developing a mu
 
 The project will explore AIGC’s impact on public trust and media credibility through case studies. It will co-design technical solutions, such as explainability tools and content detection systems and integrate them into media workflows. Governance efforts will include creating the Hong Kong AIGC Risk Database, evaluating standards through adversarial testing, and developing policy toolkits informed by global governance models. The project aims to deliver a scalable framework for responsible AIGC innovation.
 
-**Investigators**: Celine Yunya SONG (PI, HKUST)
+**Principal Investigator**: Celine Yunya SONG (HKUST)
 
 **Collaborators**: Janet Hsiao (HKUST), Masaru Yarime (HKUST), Yangqiu Song (HKUST)
 
