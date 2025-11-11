@@ -13,6 +13,7 @@ import Features3 from '~/components/widgets/Features3.astro';
 import Brands from '~/components/widgets/Brands.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
 import BlogLatestNews from '~/components/widgets/BlogLatestNews.astro';
+import Students from '~/components/widgets/Students.astro';
 
 // import { YouTube } from 'astro-embed';
 
@@ -373,10 +374,39 @@ const metadata = {
     </Fragment>
   </Testimonials>
 
+  <!-- Students Widget ************** -->
+  <Students
+    title="PhD Students"
+    subtitle="Meet our talented doctoral researchers advancing the frontiers of media intelligence."
+    groups={[
+      {
+        title: 'PhD in Media and Communication',
+        students: [
+          {
+            name: 'Student Name 1',
+            program: 'PhD in Media and Communication',
+            department: 'EMIA',
+            year: '2024-',
+            url: 'https://example.com',
+          },
+          { name: 'Student Name 2', program: 'PhD in Media and Communication', department: 'EMIA', year: '2023-' },
+        ],
+      },
+      {
+        title: 'PhD in Computer Science',
+        students: [{ name: 'Student Name 3', program: 'PhD in Computer Science', department: 'CSE', year: '2024-' }],
+      },
+    ]}
+  />
+
   <!-- BlogLatestPost Widget **************** -->
   <BlogLatestNews
     id="blog"
     title="Stay informed with MIRC News"
     information={`Explore the latest research breakthroughs, industry collaborations, and upcoming events at the HKUST Media Intelligence Research Center through our news updates.`}
-  />
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </BlogLatestNews>
 </Layout>
