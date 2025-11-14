@@ -5,6 +5,7 @@ layout: '~/layouts/MarkdownLayoutWithToggle.astro'
 
 _Last updated_: November 11, 2025
 
+<!-- Yunya Song's Projects -->
 <details>
 <summary><strong>AIS Support Fund for Interdisciplinary Research Collaboration</strong>, "A Scalable Framework for Responsible AIGC Governance and Innovation", 2025-2026.</summary>
 
@@ -36,6 +37,36 @@ By conceptualizing AI as a meta-communicator—an active co-thinker that enhance
 
 </details>
 
+<!-- Anyi Rao's Projects -->
+<details>
+<summary><strong>China Computer Federation (CCF) - Tencent</strong>, "A Method for Multi-Shot Camera-Motion Controllable Video Generation Based on Natural Language", 2025-</summary>
+
+**Project Overview**:
+Video generation technology has developed rapidly in recent years. Applying video generation technology to content production such as film, television, and animation has huge commercial value and can inspire more creative inspiration and forms.
+
+However, the film and television industry has special requirements for video quality. On the content side, the generated video content needs to meet the plot requirements and the lens expression of the director, screenwriter, and creator; on the video quality side, it needs to meet a series of standards such as clarity, image quality, color, aesthetics, and physical laws. Currently, video generation models in the industry still have many problems in these two aspects.
+
+This project aims to study quality evaluation methods for generated videos, study refined human-computer interaction methods, and guide the generation of highly controllable and high-quality videos to meet the industrial needs of film and television production in terms of both content and image quality.
+
+**Investigator**: Anyi Rao (HKUST)
+
+</details>
+
+<details>
+<summary><strong>AIS Support Fund for Interdisciplinary Research Collaboration</strong>, "AIGC-Driven Automation for High-Speed News Production and Global Dissemination", 2025-</summary>
+
+**Project Overview**:
+In today’s fast-paced digital landscape, the demand for timely, accurate, and engaging news content is higher than ever. Traditional news production processes, however, face challenges in scaling output while maintaining quality, particularly for global audiences.
+
+This project proposes leveraging Artificial Intelligence Generated Content (AIGC) technologies to automate the creation of high-quality multilingual news texts, images, and short videos tailored to different regions. By integrating AIGC into media workflows, we aim to revolutionize news production efficiency, reduce operational costs, and enhance content accessibility across linguistic and cultural boundaries for global dissemination.
+
+**Principal Investigator**: Anyi Rao (HKUST)
+
+**Collaborators**: Celine Song (HKUST), Xiaomin Ouyang (HKUST)
+
+</details>
+
+<!-- Wei XUE's Projects -->
 <details>
 <summary><strong>RGC - Early Career Scheme</strong>, "Expressive and Controllable AI Music Creation based on Audio-Oriented Representation Analysis on Large-scale Data", 2023-2025</summary>
 
@@ -70,7 +101,9 @@ In the rapidly evolving landscape of a technology-driven world, the fusion of ar
 Drawing on interdisciplinary expertise from AI, cognitive science, and the arts, the project pursues three core tasks: developing algorithmic systems for artefact creation informed by cognitive, physiological, and behavioral data; pioneering immersive XR platforms for artistic delivery and audience engagement in education; and deploying applications to enhance human creativity. Anticipated outcomes include dedicated application projects for global technology testing, a groundbreaking Research Theatre for Art Tech innovations, and a comprehensive Digital Art and Policy Network connecting Hong Kong to international developments. Harnessing AI advancements, this initiative is primed to reshape the art world and creative industries, delivering profound social, educational, and economic advantages in Hong Kong and the Greater Bay Area, while providing an interdisciplinary framework to tackle post-COVID societal challenges and drive inclusive socio-cultural-economic progress.
 
 **Project Coordinator**: Yike GUO (HKUST)
+
 **Co-Project Coordinator**: Johnny POON (HKBU)
+
 **Co-Investigators**: Wei XUE (HKUST) Jie CHEN (HKBU)
 
 </details>
