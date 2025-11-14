@@ -14,8 +14,12 @@ repos:
     rev: v3.0.3
     hooks:
       - id: prettier
-        files: \.(js|ts|jsx|tsx|astro|json|css|scss|md|mdx)$
-        args: ['--write']
+        types_or: [javascript, jsx, ts, tsx, json, css, scss, markdown, yaml]
+        files: \.(js|ts|jsx|tsx|astro|json|css|scss|md|mdx|yaml|yml)$
+        additional_dependencies:
+          - prettier@3.0.3
+          - prettier-plugin-astro@0.12.0
+        args: ['--write', '--plugin=prettier-plugin-astro']
 
   - repo: https://github.com/pre-commit/mirrors-eslint
     rev: v8.51.0
