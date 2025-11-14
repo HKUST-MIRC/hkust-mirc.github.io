@@ -107,3 +107,26 @@ Drawing on interdisciplinary expertise from AI, cognitive science, and the arts,
 **Co-Investigators**: Wei XUE (HKUST) Jie CHEN (HKBU)
 
 </details>
+
+<details>
+<summary><strong>EMIA Faculty Research Funding</strong>, "Art ID Registry Project", 2023-</summary>
+
+**Project Overview**:
+The Art ID Registry proposes the combined use of DID:ART and DID.ART as a decentralized blockchain platform developed to accelerate the art technology industry in Hong Kong by integrating intellectual property (IP) protection with generative AI innovations. This will be led by Dr. Daniel Chun of the HKUST EMIA and AMCC divisions as part of the Media Intelligence Research Centre project. This project harnesses Hong Kong’s strategic position as a global art hub to drive sustainable creative industries and global cultural exchange.
+
+Key features of the Art ID Registry include:
+
+- Integration of the Content Provenance Coalition’s C2PA protection mechanism
+- Development of a set of protocols that follows W3C Decentralized Identity (DID) standards using W3C compliant DID:ART, to provide immutable, transparent provenance and metadata for all kinds of artworks (including both physical and digital art)
+- Support for digital media and traditional art forms, enhancing provenance tracking, rights management, licensing, and artist authentication.
+- Backing by innovative research from HKUST and support from the Smart City Consortium of Hong Kong and Art ID Standard consortium, which involves global art market stakeholders like auction houses, insurers, galleries, artists community.
+
+The project addresses challenges in the art market such as lack of unique identification for artworks (analogous to VINs for vehicles, ISBN for books, DOI for academic publishing) and the need for secure digital media authentication to reduce fake and fraudulent use of copyrighted content. By providing a robust digital infrastructure with blockchain and digital watermarking technologies, the Art ID Registry aims to transform Hong Kong’s art ecosystem into a leading global model of art market innovation, supporting artists, collectors, galleries, and institutions worldwide through trusted digital identity and provenance verification.
+
+Project Deliverables - Developing an Art ID Registry Prototype (W3C DID:ART) and DID.ART digital platform service endpoints and API for future growth.
+
+**Related Publication**: Chun, D. (2023, August). When the NFT Hype Settles, What Is Left beyond Profile Pictures? A Critical Review on the Impact of Blockchain Technologies in the Art Market. In Arts (Vol. 12, No. 5, p. 181). MDPI.
+
+**Collaborators**: Smart City Consortium, Education University Hong Kong, Lingnan University, Burgundy School of Business, Art ID Standard Consortium
+
+</details>
