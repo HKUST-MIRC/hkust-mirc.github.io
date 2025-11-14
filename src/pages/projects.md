@@ -37,7 +37,7 @@ By conceptualizing AI as a meta-communicator—an active co-thinker that enhance
 </details>
 
 <details>
-<summary><strong>RGC ECS</strong>, "Expressive and Controllable AI Music Creation based on Audio-Oriented Representation Analysis on Large-scale Data", 2023-2025</summary>
+<summary><strong>RGC - Early Career Scheme</strong>, "Expressive and Controllable AI Music Creation based on Audio-Oriented Representation Analysis on Large-scale Data", 2023-2025</summary>
 
 **Project Overview**:
 This project addresses the limitations of current AI music creation (AMC) by developing a pioneering audio-oriented, end-to-end framework that unifies composition, performance control, and audio synthesis. Instead of relying on symbolic intermediaries that discard timbre, emotion, and multi-track effects, it treats finished audio as the sole workspace, enabling large-scale disentangled representation learning to capture expressive, harmonic, and timbral qualities in a single model. A comprehensive, open-source dataset of high-resolution audio recordings will be curated and released to fuel the development of algorithms.
@@ -51,7 +51,7 @@ Guided by human-like perception, the project will jointly optimise all musical f
 
 <details>
 
-<summary><strong>NSFC</strong>, "Research on Multichannel Speech Enhancement based on Acoustic Environment Representation Learning", 2023–2025</summary>
+<summary><strong>National Natural Science Foundation of China</strong>, "Research on Multichannel Speech Enhancement based on Acoustic Environment Representation Learning", 2023–2025</summary>
 
 **Project Overview**:
 This project confronts the fragility of speech processing in noisy, real-world settings by introducing a unified “acoustic-environment representation” that fuses spatial cues, temporal-spectral texture, and noise statistics into one compact, learnable vector. Instead of cascading separate estimators for direction-of-arrival, coherence, and interference power—each demanding oracle knowledge of the others—the framework jointly optimizes every acoustic factor end-to-end, enabling spatial filters to be generated directly from the representation with minimal prior assumptions. A continuously updated memory module will enable the system to self-adapt on-the-fly to new data captured, thereby closing the loop between environmental sensing and enhanced performance.
@@ -63,7 +63,7 @@ This project confronts the fragility of speech processing in noisy, real-world s
 </details>
 
 <details>
-<summary><strong>TRS</strong>, "Building Platform Technologies for Symbiotic Creativity in Hong Kong", 2021-2026</summary>
+<summary><strong>RGC - Theme-based Research Scheme</strong>, "Building Platform Technologies for Symbiotic Creativity in Hong Kong", 2021-2026</summary>
 
 **Project Overview**:
 In the rapidly evolving landscape of a technology-driven world, the fusion of arts and technology has birthed Art Tech, fundamentally transforming the creation, reception, and interaction with arts and culture. This research project positions itself at the intersection of arts and science, leveraging cutting-edge science and technology to revolutionize human-AI interactions. By focusing on the sustainability of Hong Kong's arts ecosystem, it explores AI-driven Art Tech opportunities to invigorate the city's cultural scene, fostering innovative modalities of artistic production and consumption that promise substantial socio-economic ripple effects across business, healthcare, and education sectors.
