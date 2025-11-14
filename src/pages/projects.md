@@ -127,6 +127,18 @@ Project Deliverables - Developing an Art ID Registry Prototype (W3C DID:ART) and
 
 **Related Publication**: Chun, D. (2023, August). When the NFT Hype Settles, What Is Left beyond Profile Pictures? A Critical Review on the Impact of Blockchain Technologies in the Art Market. In Arts (Vol. 12, No. 5, p. 181). MDPI.
 
+**Principal Investigator**: Chun, Daniel (HKUST)
 **Collaborators**: Smart City Consortium, Education University Hong Kong, Lingnan University, Burgundy School of Business, Art ID Standard Consortium
+
+</details>
+
+<details>
+<summary><strong>Funded by the Center for Education Innovation</strong>, "Metaverse Design Thinking", 2023-2025</summary>
+**Project Overview**:
+The project aims to develop a virtual reality (VR) platform in the metaverse to provide an immersive and interactive environment for cross-campus teaching and learning. This initiative is grounded in a design thinking course that leverages experiential learning pedagogy, facilitating substantial interactions among instructors, students, and peers.
+The project seeks to address challenges identified through years of experience in higher education, such as the mismatch between pedagogical approaches and physical spaces, as well as the lack of immersive interaction in remote teaching and learning contexts.
+Employing a user-centered approach, we identify the genuine concerns of both students and instructors, who collaborate closely to explore the intersection of virtual and remote education with VR technologies. The metaverse classroom is implemented in actual classes and refined based on direct feedback from instructors and students. The data generated and collected throughout the project represent valuable assets for exploring the evolving landscape of education through the lens of virtual reality technologies.
+
+**PI**: Rong Zhang (HKUST), Pan HUI (HKUST-GZ)
 
 </details>
