@@ -5,6 +5,7 @@ layout: '~/layouts/MarkdownLayoutWithToggle.astro'
 
 _Last updated_: November 11, 2025
 
+<!-- Yunya Song's Projects -->
 <details>
 <summary><strong>AIS Support Fund for Interdisciplinary Research Collaboration</strong>, "A Scalable Framework for Responsible AIGC Governance and Innovation", 2025-2026.</summary>
 
@@ -36,6 +37,36 @@ By conceptualizing AI as a meta-communicator—an active co-thinker that enhance
 
 </details>
 
+<!-- Anyi Rao's Projects -->
+<details>
+<summary><strong>China Computer Federation (CCF) - Tencent</strong>, "A Method for Multi-Shot Camera-Motion Controllable Video Generation Based on Natural Language", 2025-</summary>
+
+**Project Overview**:
+Video generation technology has developed rapidly in recent years. Applying video generation technology to content production such as film, television, and animation has huge commercial value and can inspire more creative inspiration and forms.
+
+However, the film and television industry has special requirements for video quality. On the content side, the generated video content needs to meet the plot requirements and the lens expression of the director, screenwriter, and creator; on the video quality side, it needs to meet a series of standards such as clarity, image quality, color, aesthetics, and physical laws. Currently, video generation models in the industry still have many problems in these two aspects.
+
+This project aims to study quality evaluation methods for generated videos, study refined human-computer interaction methods, and guide the generation of highly controllable and high-quality videos to meet the industrial needs of film and television production in terms of both content and image quality.
+
+**Investigator**: Anyi Rao (HKUST)
+
+</details>
+
+<details>
+<summary><strong>AIS Support Fund for Interdisciplinary Research Collaboration</strong>, "AIGC-Driven Automation for High-Speed News Production and Global Dissemination", 2025-</summary>
+
+**Project Overview**:
+In today’s fast-paced digital landscape, the demand for timely, accurate, and engaging news content is higher than ever. Traditional news production processes, however, face challenges in scaling output while maintaining quality, particularly for global audiences.
+
+This project proposes leveraging Artificial Intelligence Generated Content (AIGC) technologies to automate the creation of high-quality multilingual news texts, images, and short videos tailored to different regions. By integrating AIGC into media workflows, we aim to revolutionize news production efficiency, reduce operational costs, and enhance content accessibility across linguistic and cultural boundaries for global dissemination.
+
+**Principal Investigator**: Anyi Rao (HKUST)
+
+**Collaborators**: Celine Song (HKUST), Xiaomin Ouyang (HKUST)
+
+</details>
+
+<!-- Wei XUE's Projects -->
 <details>
 <summary><strong>RGC - Early Career Scheme</strong>, "Expressive and Controllable AI Music Creation based on Audio-Oriented Representation Analysis on Large-scale Data", 2023-2025</summary>
 
@@ -70,7 +101,46 @@ In the rapidly evolving landscape of a technology-driven world, the fusion of ar
 Drawing on interdisciplinary expertise from AI, cognitive science, and the arts, the project pursues three core tasks: developing algorithmic systems for artefact creation informed by cognitive, physiological, and behavioral data; pioneering immersive XR platforms for artistic delivery and audience engagement in education; and deploying applications to enhance human creativity. Anticipated outcomes include dedicated application projects for global technology testing, a groundbreaking Research Theatre for Art Tech innovations, and a comprehensive Digital Art and Policy Network connecting Hong Kong to international developments. Harnessing AI advancements, this initiative is primed to reshape the art world and creative industries, delivering profound social, educational, and economic advantages in Hong Kong and the Greater Bay Area, while providing an interdisciplinary framework to tackle post-COVID societal challenges and drive inclusive socio-cultural-economic progress.
 
 **Project Coordinator**: Yike GUO (HKUST)
+
 **Co-Project Coordinator**: Johnny POON (HKBU)
+
 **Co-Investigators**: Wei XUE (HKUST) Jie CHEN (HKBU)
+
+</details>
+
+<details>
+<summary><strong>EMIA Faculty Research Funding</strong>, "Art ID Registry Project", 2023-</summary>
+
+**Project Overview**:
+The Art ID Registry proposes the combined use of DID:ART and DID.ART as a decentralized blockchain platform developed to accelerate the art technology industry in Hong Kong by integrating intellectual property (IP) protection with generative AI innovations. This will be led by Dr. Daniel Chun of the HKUST EMIA and AMCC divisions as part of the Media Intelligence Research Centre project. This project harnesses Hong Kong’s strategic position as a global art hub to drive sustainable creative industries and global cultural exchange.
+
+Key features of the Art ID Registry include:
+
+- Integration of the Content Provenance Coalition’s C2PA protection mechanism
+- Development of a set of protocols that follows W3C Decentralized Identity (DID) standards using W3C compliant DID:ART, to provide immutable, transparent provenance and metadata for all kinds of artworks (including both physical and digital art)
+- Support for digital media and traditional art forms, enhancing provenance tracking, rights management, licensing, and artist authentication.
+- Backing by innovative research from HKUST and support from the Smart City Consortium of Hong Kong and Art ID Standard consortium, which involves global art market stakeholders like auction houses, insurers, galleries, artists community.
+
+The project addresses challenges in the art market such as lack of unique identification for artworks (analogous to VINs for vehicles, ISBN for books, DOI for academic publishing) and the need for secure digital media authentication to reduce fake and fraudulent use of copyrighted content. By providing a robust digital infrastructure with blockchain and digital watermarking technologies, the Art ID Registry aims to transform Hong Kong’s art ecosystem into a leading global model of art market innovation, supporting artists, collectors, galleries, and institutions worldwide through trusted digital identity and provenance verification.
+
+Project Deliverables - Developing an Art ID Registry Prototype (W3C DID:ART) and DID.ART digital platform service endpoints and API for future growth.
+
+**Related Publication**: Chun, D. (2023, August). When the NFT Hype Settles, What Is Left beyond Profile Pictures? A Critical Review on the Impact of Blockchain Technologies in the Art Market. In Arts (Vol. 12, No. 5, p. 181). MDPI.
+
+**Principal Investigator**: Daniel Chun (HKUST)
+
+**Collaborators**: Smart City Consortium, Education University Hong Kong, Lingnan University, Burgundy School of Business, Art ID Standard Consortium
+
+</details>
+
+<details>
+<summary><strong>Funded by the Center for Education Innovation</strong>, "Metaverse Design Thinking", 2023-2025</summary>
+
+**Project Overview**:
+The project aims to develop a virtual reality (VR) platform in the metaverse to provide an immersive and interactive environment for cross-campus teaching and learning. This initiative is grounded in a design thinking course that leverages experiential learning pedagogy, facilitating substantial interactions among instructors, students, and peers.
+The project seeks to address challenges identified through years of experience in higher education, such as the mismatch between pedagogical approaches and physical spaces, as well as the lack of immersive interaction in remote teaching and learning contexts.
+Employing a user-centered approach, we identify the genuine concerns of both students and instructors, who collaborate closely to explore the intersection of virtual and remote education with VR technologies. The metaverse classroom is implemented in actual classes and refined based on direct feedback from instructors and students. The data generated and collected throughout the project represent valuable assets for exploring the evolving landscape of education through the lens of virtual reality technologies.
+
+**PI**: Rong Zhang (HKUST), Pan HUI (HKUST-GZ)
 
 </details>
