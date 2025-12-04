@@ -135,6 +135,7 @@ export interface Stat {
 export interface Item {
   title?: string;
   description?: string;
+  items?: Array<string>;
   icon?: string;
   classes?: Record<string, string>;
   callToAction?: CallToAction;
