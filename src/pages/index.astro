@@ -6,6 +6,7 @@ import Hero from '~/components/widgets/Hero.astro';
 
 import Features2 from '~/components/widgets/Features2.astro';
 import Features3 from '~/components/widgets/Features3.astro';
+import Features4 from '~/components/widgets/Features4.astro';
 // import Features from '~/components/widgets/Features.astro';
 // import Stats from '~/components/widgets/Stats.astro';
 // import Features3 from '~/components/widgets/Features3.astro';
@@ -57,43 +58,61 @@ const metadata = {
     </Fragment>
   </Features2>
 
-  <!-- Features3 Widget ************** -->
+  <!-- Features4 Widget ************** -->
 
-  <Features3
+  <Features4
     title="Research Directions"
     subtitle=""
-    columns={3}
-    defaultIcon="tabler:point-filled"
+    columns={2}
     items={[
       {
-        title: 'Controllable Generation',
-        description:
-          'Exploring advanced techniques in AI-driven content creation, enabling precise control over generated media.',
+        title: 'AI Governance & Value Alignment',
+        items: [
+          'Comparative studies of China–US–EU regulatory frameworks',
+          'Governance of generative AI content',
+          'Development of algorithmic transparency standards',
+          'Southeast Asian AI governance models',
+          'Cross-border data flows and regulatory coordination',
+          'Survey-LLM hybrid experiments',
+          'Normative frameworks for AI in Hong Kong — embed local cultural and linguistic diversity (Cantonese, English, Mandarin) into AI training and evaluation datasets',
+        ],
       },
       {
-        title: 'Multi-Agent Intelligent Marketing',
-        description:
-          'End-to-End Autonomous Marketing: A turnkey AI system that transforms real-time dogecoin-related marketing information into viral-ready content and deploys it across platforms, replacing fragmented human teams with a unified, scalable, 24/7 operation.',
+        title: 'Cultural Heritage AI',
+        items: [
+          '"Hong Kong Memory" Digital Archive',
+          'AI-driven oral history transcription & analysis',
+          'Knowledge graph for intangible cultural heritage',
+        ],
       },
       {
-        title: 'AI Value Evaluation and Alignment',
-        description:
-          'Developing frameworks to assess and align AI technologies with human values, ensuring ethical and beneficial outcomes.',
+        title: 'Human–AI Interaction & Media Innovation',
+        items: [
+          'AI-assisted newsroom systems',
+          'Multilingual real-time translation platforms',
+          'Elderly-friendly news interfaces',
+          'LLM-powered fact-checking systems',
+          'Immersive storytelling toolkits for next-generation journalism',
+        ],
       },
       {
-        title: 'AI Journalism and Media Industry Engagement',
-        description:
-          'Fostering collaboration between AI technologies and the media industry to enhance content creation and distribution.',
+        title: 'AI & Humanities / Social Sciences',
+        items: [
+          'Computational ethnography of social media',
+          'Studies on AI-driven workforce transformation',
+          'Deep learning analysis of historical texts',
+          'Critical algorithm studies',
+          'Computational analysis of East Asian cultures',
+        ],
       },
       {
-        title: 'Hong Kong Film Database Project and Research',
-        description:
-          'Conducting comprehensive research and analysis on Hong Kong films, contributing to a centralized database for academic and industry use.',
-      },
-      {
-        title: 'Data Visualization and Public Engagement',
-        description:
-          'Utilizing data visualization techniques to effectively communicate research findings and engage the public.',
+        title: 'Sustainable Media Intelligence',
+        items: [
+          'Measuring the carbon footprint of media AI',
+          'Green data center design for AI systems',
+          'Development of sustainable AI indicators',
+          'Policy recommendations for eco-conscious innovation',
+        ],
       },
     ]}
   />
